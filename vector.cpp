@@ -100,6 +100,10 @@ int main() {
     v.resize(2);
     print(v);
 
+    // swap the contents of two vectors
+    v.swap(v2);
+    print(v);
+    
     /*********************************************************************************/
     return 0;
 }
