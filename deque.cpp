@@ -16,7 +16,7 @@ int main() {
        its beginning and its end. In addition, insertion and deletion at either end of a deque never invalidates pointers
        or references to the rest of the elements. */
 
-    //same as vector
+    //share functions with vector
     std::deque<int> d = {7, 5, 16, 8};
 
     //new functions:
@@ -28,6 +28,6 @@ int main() {
     // remove the first element
     d.pop_front();
     print(d);
-    
+
     return 0;
 }

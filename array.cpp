@@ -7,7 +7,8 @@
 #include <array>
 
 int main() {
-    //same as vector
+    //(C++11)
+    //share functions with vector
     std::array<int, 4> a = {1, 2, 3, 4}; // array container contructor
 
     // Assigns the given value to all elements of the container

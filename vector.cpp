@@ -103,7 +103,7 @@ int main() {
     // swap the contents of two vectors
     v.swap(v2);
     print(v);
-    
+
     /*********************************************************************************/
     return 0;
 }
